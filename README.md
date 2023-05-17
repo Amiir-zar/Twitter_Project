@@ -1,7 +1,43 @@
 # Twitter-Project
-In this project, two major approaches are being used to analyze the text of tweets with a desired hashtag. 
-A Real-time approach is one where the user chooses their hashtag, and we use Tweepy or snscrape to search for tweets with the hashtag they need.  According to this approach, catching the data from Twitter takes a lot of time (whether using Tweepy or snscrape), so another way to simplify this process should be found. This can be achieved by storing information on related subjects in a data warehouse, then querying our databases to retrieve users' requests, making this approach way faster than the first one. Even though this approach is faster, it's much more expensive since we need to build a data warehouse first.
-To illustrate how a Data-Warehouse can be used, we have stored Twitter data about the Iranian Revolutionary movement in 2022: 
-Data were extracted from 5 specific hashtags ["#MahsaAmini", "#OpIran", "#Iranrevolution2022", "#MohsenShekari", and "#WomenLifeFreedom"]
-In the next step, we cleaned the tweets' text to prepare them for NLP analysis.  Following that, a simple GUI was created to allow users to choose which hashtags they wanted to discover more about. While this analysis is relatively simple, it could become more sophisticated in the future. 
 
+The main objective of this project was to retrieve tweets from Twitter and provide users with relevant information about those tweets. 
+
+## Description
+In this project, we have developed a comprehensive system that involves fetching tweets from Twitter, analyzing their content, and presenting valuable information to users. To enhance the user experience, we have incorporated a user-friendly graphical user interface (GUI) using the Streamlit library. This GUI allows users to effortlessly interact with the system, select specific hashtags of interest, and retrieve insightful data from the tweets. 
+
+We employ two major approaches for data acquisition: the real-time method and the data warehouse method. 
+
+The real-time method involves users selecting a specific hashtag, and we utilize Tweepy or snscrape to fetch tweets containing that hashtag. These tweets are then analyzed to extract valuable insights.
+
+To streamline the data retrieval process, we also implement the data warehouse method. This approach involves storing information related to various subjects in a data warehouse. By querying our databases, we can efficiently retrieve users' requested data, which significantly enhances the speed of analysis compared to the real-time method. However, it's important to note that constructing and maintaining a data warehouse incurs additional costs.
+
+In the subsequent step, we focus on cleaning the text of the tweets to ensure they are in a suitable format for further analysis using natural language processing (NLP) models. This data cleaning step helps to remove any noise or irrelevant information, allowing us to derive more accurate insights from the text.
+
+
+### Dependencies
+
+* NLTK Library
+* Tweepy
+* Streamlit
+* Pandas
+* Seaborn
+
+## Help
+
+For running the program : 
+Clone the repo and run the following code in the file directory
+```
+streamlit run gui.py
+```
+
+## Authors
+
+Amirhossein Zarabadipour
+Fereshte Mohammadi
+
+
+
+## Version History
+
+* 0.1
+    * Initial Release
