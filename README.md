@@ -1,6 +1,6 @@
 # Twitter-Project
 
-The main objective of this project was to retrieve tweets from Twitter and provide users with relevant information about those tweets. 
+The main objective of this project is to retrieve tweets from Twitter and provide users with relevant information about those tweets. 
 
 ## Description
 In this project, we have developed a comprehensive system that involves fetching tweets from Twitter, analyzing their content, and presenting valuable information to users. To enhance the user experience, we have incorporated a user-friendly graphical user interface (GUI) using the Streamlit library. This GUI allows users to effortlessly interact with the system, select specific hashtags of interest, and retrieve insightful data from the tweets. 
