@@ -19,12 +19,12 @@ In the subsequent step, we focus on cleaning the text of the tweets to ensure th
 
 In the End we should mention this is the first stage and we are looking forward to expand this project by adding more statistical and insight about the tweets with specific hashtag and also build NLP model for sentimental analysis on those tweets.
 
-</br></br>
+</br>
 
 ## Demo 
 https://github.com/Amiir-zar/Twitter_Project/assets/73050351/7539cf6d-7976-4aaa-87ec-58a706cb4508
 
-</br></br>
+</br>
 
 ### Dependencies
 
