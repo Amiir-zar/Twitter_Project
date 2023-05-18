@@ -11,9 +11,20 @@ The real-time method involves users selecting a specific hashtag, and we utilize
 
 To streamline the data retrieval process, we also implement the data warehouse method. This approach involves storing information related to various subjects in a data warehouse. By querying our databases, we can efficiently retrieve users' requested data, which significantly enhances the speed of analysis compared to the real-time method. However, it's important to note that constructing and maintaining a data warehouse incurs additional costs.
 
+
+
+
+
 In the subsequent step, we focus on cleaning the text of the tweets to ensure they are in a suitable format for further analysis using natural language processing (NLP) models. This data cleaning step helps to remove any noise or irrelevant information, allowing us to derive more accurate insights from the text.
 
 In the End we should mention this is the first stage and we are looking forward to expand this project by adding more statistical and insight about the tweets with specific hashtag and also build NLP model for sentimental analysis on those tweets.
+
+</br></br>
+
+## Demo 
+https://github.com/Amiir-zar/Twitter_Project/assets/73050351/7539cf6d-7976-4aaa-87ec-58a706cb4508
+
+</br></br>
 
 ### Dependencies
 
@@ -37,7 +48,7 @@ streamlit run gui.py
 
 Amirhossein Zarabadipour
 
-Fereshte Mohammadi
+[Fereshte Mohammadi](https://github.com/fereshte-m)
 
 
 
@@ -48,6 +59,6 @@ Fereshte Mohammadi
 
 ## Notice 
 
-For using Tweepy you need to create a Twitter Developer Account and API Keyin twitter and request for V2 access.
-More Info on how to create a Twitter Developer Account  :
-https://medium.com/@Nonso_Analytics/how-to-get-a-twitter-developer-account-and-api-key-a-beginners-guide-1c5c18765a9d
+For using Tweepy you need to create a Twitter Developer Account and API Key in twitter and request for V2 access.
+
+[More Info on how to create a Twitter Developer Account link](https://medium.com/@Nonso_Analytics/how-to-get-a-twitter-developer-account-and-api-key-a-beginners-guide-1c5c18765a9d)
